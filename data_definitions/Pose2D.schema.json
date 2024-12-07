@@ -1,0 +1,21 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.com/product.schema.json",
+    "title": "Pose2D",
+    "description": "A 2D Pose",
+    "type": "object",
+    "properties": {
+        "X": {
+        "description": "The X component of the pose, this field is intentionally optional",
+        "type": "number"
+        },
+        "Y": {
+        "description": "The Y component of the pose, this field is intentionally optional",
+        "type": "number"
+        },
+        "rot": {
+        "description": "The rotation component of the pose, this field is intentionally optional",
+        "type": "number"
+        }
+    }
+}

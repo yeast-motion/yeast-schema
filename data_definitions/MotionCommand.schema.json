@@ -1,0 +1,17 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.com/product.schema.json",
+    "title": "MotionCommand",
+    "description": "A motion command",
+    "type": "object",
+    "properties": {
+        "velocity": {
+            "description": "Velocity component of the motion command",
+            "$ref": "Twist2D.schema.json"
+        },
+        "acceleration": {
+            "description": "Acceleration component of the motion command",
+            "$ref": "Twist2D.schema.json"
+        }
+    }
+}
