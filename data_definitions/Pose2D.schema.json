@@ -5,17 +5,13 @@
     "description": "A 2D Pose",
     "type": "object",
     "properties": {
-        "X": {
+        "translation": {
         "description": "The X component of the pose, this field is intentionally optional",
-        "type": "number"
+        "$ref": "Translation2Dschema.json"
         },
-        "Y": {
+        "rotation": {
         "description": "The Y component of the pose, this field is intentionally optional",
-        "type": "number"
-        },
-        "rot": {
-        "description": "The rotation component of the pose, this field is intentionally optional",
-        "type": "number"
+        "$ref": "Rotation2D.schema.json"
         }
     }
 }
