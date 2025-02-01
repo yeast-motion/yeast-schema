@@ -1,0 +1,17 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.com/product.schema.json",
+    "title": "MotionState",
+    "description": "A sample of the motion state",
+    "type": "object",
+    "properties": {
+        "reference": {
+        "description": "The current motion setpoints",
+        "$ref": "MotionSample.schema.json"
+        },
+        "measurement": {
+        "description": "The measurement of the current motion state",
+        "$ref": "MotionSample.schema.json"
+        }
+    }
+}

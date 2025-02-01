@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.com/product.schema.json",
+    "title": "SwerveModuleConfig",
+    "description": "The configuration of an individual swerve module",
+    "type": "object",
+    "properties": {
+        "translation": {
+        "description": "The translation representing the position of the swerve module relative to chassis center",
+        "$ref": "Translation2D.schema.json"
+        }
+    }
+}

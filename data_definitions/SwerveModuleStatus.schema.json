@@ -1,0 +1,21 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.com/product.schema.json",
+    "title": "SwerveModuleStatus",
+    "description": "The status of an individual swerve module",
+    "type": "object",
+    "properties": {
+        "speed": {
+        "description": "The speed of the module",
+        "type": "number"
+        },
+        "theta": {
+        "description": "The theta (rotation) position of the swerve module",
+        "type": "number"
+        },
+        "position": {
+        "description": "The accumulated distance traveled by the module",
+        "type": "number"
+        }
+    }
+}

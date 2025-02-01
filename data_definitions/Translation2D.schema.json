@@ -6,11 +6,11 @@
     "type": "object",
     "properties": {
         "x": {
-        "description": "The X component of the translation, this field is intentionally optional",
+        "description": "The X component of the translation",
         "type": "number"
         },
         "y": {
-        "description": "The Y component of the translation, this field is intentionally optional",
+        "description": "The Y component of the translation",
         "type": "number"
         }
     }

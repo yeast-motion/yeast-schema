@@ -6,7 +6,7 @@
     "type": "object",
     "properties": {
         "theta": {
-        "description": "The angle of the rotation, this field is intentionally optional",
+        "description": "The angle of the rotation",
         "type": "number"
         }
     }

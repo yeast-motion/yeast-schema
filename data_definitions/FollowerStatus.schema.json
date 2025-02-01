@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.com/product.schema.json",
+    "title": "FollowerStatus",
+    "description": "The status of a trajectory follower",
+    "type": "object",
+    "properties": {
+        "passed_commands": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+        },
+        "finished": {
+            "description": "A boolean indicating the trajectory is complete",
+            "type": "boolean"
+        }
+    }
+}

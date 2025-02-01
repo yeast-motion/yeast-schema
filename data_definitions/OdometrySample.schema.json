@@ -1,33 +1,21 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://example.com/product.schema.json",
-    "title": "MotionSample",
-    "description": "A Motion Sample",
+    "title": "OdometrySample",
+    "description": "A odometry Sample",
     "type": "object",
     "properties": {
         "pose": {
             "description": "Pose component of the motion sample",
             "$ref": "Pose2D.schema.json"
         },
-        "pose_valid": {
-            "description": "The validity of the pose component",
-            "type": "boolean"
-        },
         "velocity": {
             "description": "Velocity component of the motion sample",
             "$ref": "Twist2D.schema.json"
         },
-        "velocity_valid": {
-            "description": "The validity of the velocity component",
-            "type": "boolean"
-        },
         "acceleration": {
             "description": "Acceleration component of the motion sample",
             "$ref": "Twist2D.schema.json"
-        },
-        "acceleration_valid": {
-            "description": "The validity of the acceleration component",
-            "type": "boolean"
         }
     }
 }

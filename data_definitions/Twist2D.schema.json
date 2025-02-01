@@ -6,15 +6,15 @@
     "type": "object",
     "properties": {
         "x": {
-        "description": "The X component of the twist, this field is intentionally optional",
+        "description": "The X component of the twist",
         "type": "number"
         },
         "y": {
-        "description": "The Y component of the twist, this field is intentionally optional",
+        "description": "The Y component of the twist",
         "type": "number"
         },
         "omega": {
-        "description": "The rotation component of the twist, this field is intentionally optional",
+        "description": "The rotation component of the twist",
         "type": "number"
         }
     }

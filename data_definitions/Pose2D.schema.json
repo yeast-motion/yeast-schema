@@ -6,11 +6,11 @@
     "type": "object",
     "properties": {
         "translation": {
-        "description": "The X component of the pose, this field is intentionally optional",
+        "description": "The translation component of the pose",
         "$ref": "Translation2D.schema.json"
         },
         "rotation": {
-        "description": "The Y component of the pose, this field is intentionally optional",
+        "description": "The rotation component of the pose",
         "$ref": "Rotation2D.schema.json"
         }
     }
