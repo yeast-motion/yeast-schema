@@ -5,15 +5,15 @@
     "description": "A 2D Twist",
     "type": "object",
     "properties": {
-        "X": {
+        "x": {
         "description": "The X component of the twist, this field is intentionally optional",
         "type": "number"
         },
-        "Y": {
+        "y": {
         "description": "The Y component of the twist, this field is intentionally optional",
         "type": "number"
         },
-        "rot": {
+        "omega": {
         "description": "The rotation component of the twist, this field is intentionally optional",
         "type": "number"
         }
