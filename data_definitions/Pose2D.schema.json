@@ -7,7 +7,7 @@
     "properties": {
         "translation": {
         "description": "The X component of the pose, this field is intentionally optional",
-        "$ref": "Translation2Dschema.json"
+        "$ref": "Translation2D.schema.json"
         },
         "rotation": {
         "description": "The Y component of the pose, this field is intentionally optional",
