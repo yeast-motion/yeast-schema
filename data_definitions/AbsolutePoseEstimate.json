@@ -1,0 +1,18 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.com/product.schema.json",
+    "title": "AbsolutePoseEstimate",
+    "description": "An estimate of the absolute pose generated outside of the odometry provider",
+    "type": "object",
+    "properties": {
+        "pose": {
+            "description": "Pose component of the motion sample",
+            "$ref": "Pose2D.schema.json"
+        },
+        "timestamp": {
+            "description": "A timestamp of the sample",
+            "type": "number"
+        }
+
+    }
+}
