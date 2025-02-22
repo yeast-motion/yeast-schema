@@ -23,7 +23,7 @@
         },
         "translation": {
             "description": "Translation component  of the motion command",
-            "$ref": "Translation2d.schema.json"
+            "$ref": "Translation2D.schema.json"
         },
         "translation_valid": {
             "description": "The validity of the translation component",
