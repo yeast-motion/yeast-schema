@@ -14,6 +14,10 @@
         "finished": {
             "description": "A boolean indicating the trajectory is complete",
             "type": "boolean"
+        },
+        "sync_number": {
+            "description": "A sync number to verify correct auto/path is being statused",
+            "type": "number"
         }
     }
 }
