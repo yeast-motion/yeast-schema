@@ -17,7 +17,7 @@
         },
         "sync_number": {
             "description": "A sync number to verify correct auto/path is being statused",
-            "type": "number"
+            "type": "integer"
         }
     }
 }
